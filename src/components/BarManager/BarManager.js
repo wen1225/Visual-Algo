@@ -3,8 +3,10 @@ import generateBar from './GenerateBar.js';
 
 class BarManager extends React.Component {
     render() {
-        return (    
-            generateBar()
+        return (
+            <>
+            {generateBar()}
+            </>
         );
     }
 }
